@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    
+    <title>Integraion WEB</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/monStyle/style.css">
+</head>
+
+<body>
+        
+    <!--MENU-->
+    <header class="hs">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Images/logo.png" alt="logo" class="logo">
+                </div>
+                <div class="col-9 hz">
+                    <nav class="navbar">
+                        <div>
+                            <a id="couleur" href="#">Home</a>
+                            <a href="#">Features</a>
+                            <a href="#">Pricing</a>
+                            <a href="#">Disabled</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!--IMAGE-->
+    <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Action
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+
+
+   
+        <script>
+            $(".dropdown").on("show.bs.dropdown", function(event){
+  var x = $(event.relatedTarget).text(); // Get the text of the element
+  alert(x);
+});
+        </script>
+    <div class="row">
+        <div class="card text-white bg">
+            <img class="card-img" src="Images/img2.jpg" alt="Card image">
+            <div class="card-img-overlay">
+                <h1 class="card-title" id="card" style="color: black">Get <SPAN>Web Hosting </SPAN>From #1</h5>
+                    <p class="card-title" id="p1" style="color: black">Lorem ipsum dolor sit amet.</p>
+                    <p class="card-text" id="p2">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+    <!-- On modifie le contenu textuel de notre élément h1 avec innerHTML -->
+
+
+    <!--CARDS-->
+    <section class="we-offer text-center">
+        <div class="container">
+        </div>
+        <div class="container">
+            <div class="p1">
+                <h1>What we Offer</h1>
+            </div>
+            <div class="row">
+                <div class="col-4 we-offer-bloc">
+                    <div class="bloc">
+                        <h4>titre</h4>
+                        <div class="contenu">
+                            <h5>Starts at <span>15.5$</span>/month</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ratione voluptate quia
+                                voluptatum delectus nostrum, ipsam magni aliquam cumque temporibus.</p>
+                            <button type="button" class="btn">Primary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 we-offer-bloc">
+                    <div class="bloc">
+                        <h4>titre</h4>
+                        <div class="contenu">
+                            <h5>Starts at <span>15.5$</span>/month</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ratione voluptate quia
+                                voluptatum delectus nostrum, ipsam magni aliquam cumque temporibus.</p>
+                            <button type="button" class="btn">Primary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 we-offer-bloc">
+                    <div class="bloc">
+                        <h4>titre</h4>
+                        <div class="contenu">
+                            <h5>Starts at <span>15.5$</span>/month</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ratione voluptate quia
+                                voluptatum delectus nostrum, ipsam magni aliquam cumque temporibus.</p>
+                            <button type="button" class="btn">Primary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center">
+        <div class="s2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 texte">
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, blanditiis!</h6>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, blanditiis!</h6>
+
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn">Connect Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div>
+                <h1>Why Choose Us</h1>
+            </div>
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+
+                <div class=" col-3 card text-white bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header
+                        <img class="cardd-img" src="Images/img1.jpg" alt="Card image" style width="45px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-1">
+
+                </div>
+                <div class=" col-3 card text-white bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header
+                        <img class="cardd-img" src="Images/img1.jpg" alt="Card image" style width="45px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+                <div class="col-1">
+
+                </div>
+                <div class=" col-3 card text-white bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header
+                        <img class="cardd-img" src="Images/img1.jpg" alt="Card image" style="width: 45px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Info card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptates perspiciatis
+                        eius deleniti ab nemo aperiam? Ducimus in voluptatum corrupti?</p>
+                </div>
+                <div class="col-1">
+
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptates perspiciatis
+                        eius deleniti ab nemo aperiam? Ducimus in voluptatum corrupti?</p>
+                </div>
+                <div class="col-1">
+
+                </div>
+                <div class="col-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptates perspiciatis
+                        eius deleniti ab nemo aperiam? Ducimus in voluptatum corrupti?</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </section>
+    <section class="position text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus reprehenderit
+                        veritatis voluptatibus minus, accusantium odit dolorem temporibus tempora eius.</p>
+                    <button type="button" class="btn">Primary</button>
+                </div>
+                <div class="col-6">
+                    <img class="card-img" src="Images/img3.jpg" alt="Card image">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-6">
+                    <img class="card-img" src="Images/img3.jpg" alt="Card image">
+                </div>
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus reprehenderit
+                        veritatis voluptatibus minus, accusantium odit dolorem temporibus tempora eius.</p>
+                    <button type="button" class="btn">Primary</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="we-offer text-center">
+        <div class="container">
+            <div class="p1 position">
+                <h1>Different Plans<span class="souligne-org"> for </span>Different Offers</h1>
+            </div>
+            <div class="row position">
+                <div class="col-4 we-offer-bloc">
+                    <div class="bloc">
+                        <h4>Standard</h4>
+                        <div class="contenu container">
+                            <h1>99.99$</h1>
+                            <h6 class="trait-horizontal">per month</h6>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <button type="button" class="btn">View Plans</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 we-offer-bloc">
+                    <div class="bloc">
+                        <h4>Standard</h4>
+                        <div class="contenu container">
+                            <h1>150.99$</h1>
+                            <h6 class="trait-horizontal">per month</h6>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <button type="button" class="btn">View Plans</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 we-offer-bloc">
+                    <div class="bloc">
+                        <h4>Standard</h4>
+                        <div class="contenu container">
+                            <h1>199.99$</h1>
+                            <h6 class="trait-horizontal">per month</h6>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <p class="trait-horizontal">Lorem ipsum dolor sit amet</p>
+                            <button type="button" class="btn">View Plans</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="position">
+                <div>
+                    <img src="Images/logo.png" alt="logo" class="logo">
+                </div>
+                <div>
+                    <h1>Need Help</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <img src="Images/img2.jpg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+            <div class="text">You Are Welcome </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    function showText(text) {
+        document.getElementById("text").innerHTML = text;
+    }
+    function hide() {
+        document.getElementById("text").innerHTML = "";
+    }
+</script>
+
+<p id="demo"></p>
+
+
+
+<script>
+    //On modifie le contenu textuel de notre élément h1 avec innerHTML
+ 
+    
+    var nom = document.getElementById("nom").value;
+    var prenom = "haj salem";
+    
+function myFunction() {
+  var x = document.getElementById("nom").value;
+  document.getElementById('p1').innerHTML = "Welcome "+x;
+}
+
+
+
+</script>
+
+</html>
